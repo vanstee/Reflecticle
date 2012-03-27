@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		103A10D815215EF200C7E225 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 103A10D715215EF200C7E225 /* Cocoa.framework */; };
+		103A10DA15215EF200C7E225 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 103A10D915215EF200C7E225 /* MacRuby.framework */; };
+		103A10E115215EF200C7E225 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 103A10DF15215EF200C7E225 /* InfoPlist.strings */; };
+		103A10E315215EF200C7E225 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 103A10E215215EF200C7E225 /* main.m */; };
+		103A10E815215EF200C7E225 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 103A10E615215EF200C7E225 /* MainMenu.xib */; };
+		103A10EB15215EF200C7E225 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 103A10EA15215EF200C7E225 /* rb_main.rb */; };
+		103A10ED15215EF200C7E225 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 103A10EC15215EF200C7E225 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		103A10D315215EF200C7E225 /* Reflecticle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reflecticle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		103A10D715215EF200C7E225 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		103A10D915215EF200C7E225 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		103A10DE15215EF200C7E225 /* Reflecticle-Info.plist */ = {isa = PBXFileReference; path = "Reflecticle-Info.plist"; sourceTree = "<group>"; };
+		103A10E015215EF200C7E225 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		103A10E215215EF200C7E225 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		103A10E415215EF200C7E225 /* Reflecticle-Prefix.pch */ = {isa = PBXFileReference; path = "Reflecticle-Prefix.pch"; sourceTree = "<group>"; };
+		103A10E715215EF200C7E225 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		103A10EA15215EF200C7E225 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		103A10EC15215EF200C7E225 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		103A10D015215EF200C7E225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103A10D815215EF200C7E225 /* Cocoa.framework in Frameworks */,
+				103A10DA15215EF200C7E225 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		103A10C815215EF200C7E225 = {
+			isa = PBXGroup;
+			children = (
+				103A10DC15215EF200C7E225 /* Reflecticle */,
+				103A10D615215EF200C7E225 /* Frameworks */,
+				103A10D415215EF200C7E225 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		103A10D415215EF200C7E225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				103A10D315215EF200C7E225 /* Reflecticle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		103A10D615215EF200C7E225 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				103A10D715215EF200C7E225 /* Cocoa.framework */,
+				103A10D915215EF200C7E225 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		103A10DC15215EF200C7E225 /* Reflecticle */ = {
+			isa = PBXGroup;
+			children = (
+				103A10EC15215EF200C7E225 /* AppDelegate.rb */,
+				103A10E515215EF200C7E225 /* Resources */,
+				103A10E915215EF200C7E225 /* Other Sources */,
+				103A10DD15215EF200C7E225 /* Supporting Files */,
+			);
+			path = Reflecticle;
+			sourceTree = "<group>";
+		};
+		103A10DD15215EF200C7E225 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				103A10DE15215EF200C7E225 /* Reflecticle-Info.plist */,
+				103A10DF15215EF200C7E225 /* InfoPlist.strings */,
+				103A10E215215EF200C7E225 /* main.m */,
+				103A10E415215EF200C7E225 /* Reflecticle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		103A10E515215EF200C7E225 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				103A10E615215EF200C7E225 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		103A10E915215EF200C7E225 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				103A10EA15215EF200C7E225 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		103A10DB15215EF200C7E225 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 103A10F315215EF200C7E225 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		103A10D215215EF200C7E225 /* Reflecticle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 103A10F015215EF200C7E225 /* Build configuration list for PBXNativeTarget "Reflecticle" */;
+			buildPhases = (
+				103A10CF15215EF200C7E225 /* Sources */,
+				103A10D015215EF200C7E225 /* Frameworks */,
+				103A10D115215EF200C7E225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reflecticle;
+			productName = Reflecticle;
+			productReference = 103A10D315215EF200C7E225 /* Reflecticle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		103A10CA15215EF200C7E225 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 103A10CD15215EF200C7E225 /* Build configuration list for PBXProject "Reflecticle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 103A10C815215EF200C7E225;
+			productRefGroup = 103A10D415215EF200C7E225 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				103A10D215215EF200C7E225 /* Reflecticle */,
+				103A10DB15215EF200C7E225 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		103A10D115215EF200C7E225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103A10E115215EF200C7E225 /* InfoPlist.strings in Resources */,
+				103A10E815215EF200C7E225 /* MainMenu.xib in Resources */,
+				103A10EB15215EF200C7E225 /* rb_main.rb in Resources */,
+				103A10ED15215EF200C7E225 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		103A10CF15215EF200C7E225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103A10E315215EF200C7E225 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		103A10DF15215EF200C7E225 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				103A10E015215EF200C7E225 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		103A10E615215EF200C7E225 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				103A10E715215EF200C7E225 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		103A10EE15215EF200C7E225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		103A10EF15215EF200C7E225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		103A10F115215EF200C7E225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reflecticle/Reflecticle-Prefix.pch";
+				INFOPLIST_FILE = "Reflecticle/Reflecticle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		103A10F215215EF200C7E225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reflecticle/Reflecticle-Prefix.pch";
+				INFOPLIST_FILE = "Reflecticle/Reflecticle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		103A10F415215EF200C7E225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		103A10F515215EF200C7E225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		103A10CD15215EF200C7E225 /* Build configuration list for PBXProject "Reflecticle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103A10EE15215EF200C7E225 /* Debug */,
+				103A10EF15215EF200C7E225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		103A10F015215EF200C7E225 /* Build configuration list for PBXNativeTarget "Reflecticle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103A10F115215EF200C7E225 /* Debug */,
+				103A10F215215EF200C7E225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		103A10F315215EF200C7E225 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103A10F415215EF200C7E225 /* Debug */,
+				103A10F515215EF200C7E225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 103A10CA15215EF200C7E225 /* Project object */;
+}
