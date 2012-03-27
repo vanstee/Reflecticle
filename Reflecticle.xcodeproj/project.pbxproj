@@ -14,19 +14,23 @@
 		103A10E815215EF200C7E225 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 103A10E615215EF200C7E225 /* MainMenu.xib */; };
 		103A10EB15215EF200C7E225 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 103A10EA15215EF200C7E225 /* rb_main.rb */; };
 		103A10ED15215EF200C7E225 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 103A10EC15215EF200C7E225 /* AppDelegate.rb */; };
+		103A1101152173C200C7E225 /* NSMenuWithTextField.rb in Resources */ = {isa = PBXBuildFile; fileRef = 103A1100152173C200C7E225 /* NSMenuWithTextField.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		103A10D315215EF200C7E225 /* Reflecticle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reflecticle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		103A10D715215EF200C7E225 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		103A10D915215EF200C7E225 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
-		103A10DE15215EF200C7E225 /* Reflecticle-Info.plist */ = {isa = PBXFileReference; path = "Reflecticle-Info.plist"; sourceTree = "<group>"; };
+		103A10DE15215EF200C7E225 /* Reflecticle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Reflecticle-Info.plist"; sourceTree = "<group>"; };
 		103A10E015215EF200C7E225 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		103A10E215215EF200C7E225 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		103A10E415215EF200C7E225 /* Reflecticle-Prefix.pch */ = {isa = PBXFileReference; path = "Reflecticle-Prefix.pch"; sourceTree = "<group>"; };
+		103A10E415215EF200C7E225 /* Reflecticle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reflecticle-Prefix.pch"; sourceTree = "<group>"; };
 		103A10E715215EF200C7E225 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		103A10EA15215EF200C7E225 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		103A10EC15215EF200C7E225 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		103A10FA1521675000C7E225 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		103A10FC152167D000C7E225 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
+		103A1100152173C200C7E225 /* NSMenuWithTextField.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = NSMenuWithTextField.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,8 @@
 		103A10C815215EF200C7E225 = {
 			isa = PBXGroup;
 			children = (
+				103A10FC152167D000C7E225 /* PreferencePanes.framework */,
+				103A10FA1521675000C7E225 /* CoreFoundation.framework */,
 				103A10DC15215EF200C7E225 /* Reflecticle */,
 				103A10D615215EF200C7E225 /* Frameworks */,
 				103A10D415215EF200C7E225 /* Products */,
@@ -75,6 +81,7 @@
 				103A10E515215EF200C7E225 /* Resources */,
 				103A10E915215EF200C7E225 /* Other Sources */,
 				103A10DD15215EF200C7E225 /* Supporting Files */,
+				103A1100152173C200C7E225 /* NSMenuWithTextField.rb */,
 			);
 			path = Reflecticle;
 			sourceTree = "<group>";
@@ -177,6 +184,7 @@
 				103A10E815215EF200C7E225 /* MainMenu.xib in Resources */,
 				103A10EB15215EF200C7E225 /* rb_main.rb in Resources */,
 				103A10ED15215EF200C7E225 /* AppDelegate.rb in Resources */,
+				103A1101152173C200C7E225 /* NSMenuWithTextField.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
