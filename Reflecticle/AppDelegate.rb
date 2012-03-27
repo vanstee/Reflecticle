@@ -17,6 +17,7 @@ class AppDelegate
         unless api_key.empty?
             uri = URI.parse("http://www.reflecticle.com/api/projects.json?api_key=#{api_key}")
             @projects ||= Hash[JSON.parse(Net::HTTP.get_response(uri).body).map { |p| [p["id"], p["name"]] }]
+            @projects = Hash[@projects.sort]
             @project.removeAllItems
             @project.addItemsWithTitles(@projects.values)
         end
@@ -29,7 +30,7 @@ class AppDelegate
     def post(sender)
         api_key = NSUserDefaults.standardUserDefaults["api_key"]
         if !api_key.empty? && !@post.stringValue.empty?
-            uri = URI.parse("http://www.reflecticle.com/api/activities/create.json?api_key=#{api_key}&project_id=1&description=#{@post.stringValue}")
+            uri = URI.parse("http://www.reflecticle.com/api/activities/create.json?api_key=#{URI.escape(api_key)}&project_id=1&description=#{URI.escape(@post.stringValue)}")
             p Net::HTTP.get_response(uri)
             @post.stringValue = ""
         end
