@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "103A10D215215EF200C7E225"
+               BlueprintIdentifier = "10CA01E91522C71C00408B12"
                BuildableName = "Reflecticle.app"
                BlueprintName = "Reflecticle"
                ReferencedContainer = "container:Reflecticle.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "103A10D215215EF200C7E225"
+            BlueprintIdentifier = "10CA01E91522C71C00408B12"
             BuildableName = "Reflecticle.app"
             BlueprintName = "Reflecticle"
             ReferencedContainer = "container:Reflecticle.xcodeproj">
@@ -49,7 +49,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "103A10D215215EF200C7E225"
+            BlueprintIdentifier = "10CA01E91522C71C00408B12"
             BuildableName = "Reflecticle.app"
             BlueprintName = "Reflecticle"
             ReferencedContainer = "container:Reflecticle.xcodeproj">
@@ -67,7 +67,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "103A10D215215EF200C7E225"
+            BlueprintIdentifier = "10CA01E91522C71C00408B12"
             BuildableName = "Reflecticle.app"
             BlueprintName = "Reflecticle"
             ReferencedContainer = "container:Reflecticle.xcodeproj">

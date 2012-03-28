@@ -1,5 +1,5 @@
 //
-//  main.m
+//  AppDelegate.h
 //  Reflecticle
 //
 //  Created by Patrick Van Stee on 3/28/12.
@@ -8,7 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-int main(int argc, char *argv[])
-{
-    return NSApplicationMain(argc, (const char **)argv);
-}
+@interface AppDelegate : NSObject <NSApplicationDelegate>
+
+@property (assign) IBOutlet NSWindow *window;
+
+@end
